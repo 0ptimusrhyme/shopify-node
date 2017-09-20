@@ -4,7 +4,6 @@ const app = express();
 const crypto = require('crypto');
 const querystring = require('querystring');
 const rp = require('request-promise');
-const pry = require('pryjs')
 
 // Get data from .env
 const apiKey = process.env.API_KEY;
